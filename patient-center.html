@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Clinica odontologica Margaret Hamilton</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="icon" href="_images/logo.png">
+    <script type="text/javascript">
+        function confirmacao(){
+            window.alert('O agendamento foi realizado com sucesso!')
+        }
+        function limpar(){
+         window.open("patient-center.html", "_self");
+        }
+    </script>
+    
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-toggleable-sm navbar-inverse" style="background: rgb(255, 118, 225);">
+        <div class="container">
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="mainNav">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="index.html"><img src="_images/home.png" style="width: 16px; height: 13px; padding-right: 4px;"><strong> Home</strong></a>
+                <a class="nav-item nav-link" href="premium-plan.html"><img src="_images/premium.png" style="width: 16px; height: 13px; padding-right: 4px;"><strong>Plano premium</strong></a>
+                <a class="nav-item nav-link" href="services.html"><img src="_images/services.png" style="width: 16px; height: 13px; padding-right: 4px;"><strong>Serviços</strong></a>
+                <a class="nav-item nav-link active" href="patient-center.html"><img src="_images/patient.png" style="width: 16px; height: 13px; padding-right: 4px;"><strong>Agendamento</strong></a>
+                <a class="nav-item nav-link" href="about.html"><img src="_images/about.png" style="width: 16px; height: 13px; padding-right: 4px;"><strong>Sobre</strong></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+<div class="container">
+
+       <div class="page-header pb-3 pt-4">
+           <h1>Agende seu horário</h1>
+       </div>
+
+   <div class="row">
+        <div class="col-sm-6">
+
+            <form>
+                <div class="form-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" class="form-control" id="nome" placeholder="Digite seu nome completo">
+                </div>
+
+                <div class="form-group">
+                    <label for="cpf">CPF</label>
+                    <input type="number" class="form-control" id="cpf" placeholder="Digite seu CFP">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" class="form-control" id="email" placeholder="Digite seu E-mail">
+                </div>
+
+                <div class="form-group">
+                    <label>Endereço</label>
+                    <input type="text" class="form-control" id="endereco" placeholder="Digite seu endereço" >
+                </div>
+
+                <div class="form-group">
+                    <label>Telefone</label>
+                    <input type="tel" class="form-control" id="telefone" placeholder="Digite seu telefone" >
+                </div>
+    
+            </form>
+              
+        </div>
+
+        <div class="col-sm-1">
+            
+        </div>
+
+        <div class="col-sm-4 text-center">
+
+            <form>
+                <div class="form-group text-left">
+                    <label>Data</label>
+                    <input type="date" class="form-control" id="data" placeholder="Digite o dia desejado">
+                </div>
+
+                <div class="form-group text-left">
+                    <label>Hora</label>
+                    <input type="time" class="form-control" id="hora" placeholder="Digite a hora desejada">
+                </div>
+
+                <div class="radio pb-1 text-left">
+                    <h4><b>Tratamento</b></h4>
+                    <label>
+                        <input type="radio" name="opcoes"> Clareamento
+                    </label>
+                    <br>
+
+                    <label>
+                        <input type="radio" name="opcoes"> Limpeza
+                    </label>
+                    <br>
+
+                    <label>
+                        <input type="radio" name="opcoes">Ortodontia
+                    </label>
+                    <br>
+
+                    <label>
+                        <input type="radio" name="opcoes">Periodontia
+                    </label>
+                    <br>
+
+                    <label>
+                        <input type="radio" name="opcoes">Endodontia
+                    </label>
+                </div>
+            </form>
+                <button type="button" class="btn btn-secondary" onclick="limpar()" style="background: rgb(255, 118, 225); color: #ffffff;">Limpar</button>
+                
+                <button type="submit" class="btn btn-secondary" onclick="confirmacao()" style="background: rgb(255, 118, 225); color: #ffffff;">Agendar</button>
+        </div>
+   </div>
+    
+</div>
+
+</br></br></br></br>
+<div class="container-fluid pt-2" style="background: rgb(255, 118, 225)";>
+    <div class="row justify-content-center">
+        <div class="col-md-3 text-center lead"><a href="Easter-egg.html" style="color: #ffffff; text-decoration: none;"><img src="_images/twitter-logo.png" style="width: 16px; height: 13px; padding-right: 4px;">Twitter</a></div>
+        <div class="col-md-3 text-center lead"><a href="Easter-egg.html" style="color: #ffffff; text-decoration: none;"><img src="_images/facebook-logo.png" style="width: 16px; height: 13px; padding-right: 4px;">Facebook</a></div>
+        <div class="col-md-3 text-center lead"><a href="Easter-egg.html" style="color: #ffffff; text-decoration: none;"><img src="_images/instagram-logo.png" style="width: 16px; height: 13px; padding-right: 4px;">Instagram</a></div>
+        <div class="col-md-3 text-center lead"><a href="Easter-egg.html" style="color: #ffffff; text-decoration: none;"><img src="_images/email.png" style="width: 16px; height: 13px; padding-right: 4px;">E-mail</a></div>
+        <div class="col-md-3 pt-4 text-center" style="color: #ffffff;">Copyright 2020 - site por <a href="Easter-egg.html" style="color: #ffffff; text-decoration: none;"><strong>Grupo ATC</strong></a></div>
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script>
+$(function(){
+$('[data-toggle="tooltip"]').tooltip();
+})
+</script>
+</body>
+</html>
